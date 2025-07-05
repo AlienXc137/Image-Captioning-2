@@ -27,7 +27,7 @@ It uses **DenseNet201** as the feature extractor and **LSTM** as the sequence ge
    - LSTM processes the combined sequence
    - Output is passed through a `Dense(vocab_size, softmax)` to predict the next word
 
-## 🗂️ Dataset
+## Dataset
 
 - **Flickr8k Dataset** (Recommended for Kaggle training)
   - 8,000 images
